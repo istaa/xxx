@@ -5,16 +5,8 @@
 <body>
 <?php
 
-echo "Fungsi Greeting";
-echo "<br>";
-echo "Istaqo Mahmudah Harits";
-echo "<br>";
-echo "MI 2C";
-echo "<br>";
-echo "1431143021";
-echo "<br>";
-echo "===================";
-echo "<br>";
+echo "Fungsi Greeting <br> Istaqo Mahmudah Harits <br> 1431143021";
+echo "<br>===================<br>";
 date_default_timezone_set("Asia/Jakarta");
 echo "<br>";
 $a = date("D/M/j \ H:i:s");
@@ -23,9 +15,7 @@ echo "<br>";
 
 $gret = date("G");
 
-echo "<br>";
-echo "===================";
-echo "<br>";
+echo "<br>===================<br>";
 
 if ($gret>=0 && $gret<10)
 	{
